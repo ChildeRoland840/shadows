@@ -1,5 +1,7 @@
+<mvt:if expr="l.settings:page:code NE 'SFNT'">
 </main>
 <!-- end t-site-content -->
+</mvt:if>
 
 <mvt:if expr="g.Session:shadows:page_style EQ 'minimal'">
 	<footer class="t-site-footer">

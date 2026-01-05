@@ -81,7 +81,10 @@
 	<mvt:item name="breadcrumbs" />
 </mvt:if>
 
+<mvt:if expr="l.settings:page:code NE 'SFNT'">
 <main class="o-wrapper t-main-content-element">
+</mvt:if>
+
 	<mvt:if expr="g.Maintenance_Warning_Message">
 		<section class="o-layout">
 			<div class="o-layout__item">
